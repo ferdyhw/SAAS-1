@@ -1,0 +1,207 @@
+body {
+	padding: 0;
+	margin: 0; 
+	color: #444;
+	font-family: "Raleway", Helvetica, sans-serif;
+}
+
+/*Logo*/
+.logo {
+	width: 0;
+	height: 0;
+}
+
+.logo img {
+	width: 60px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+/*Banner*/
+.banner {
+	height: 100vh;
+	background-image: url(dark_tint.png), url(stm3.JPG);
+	color: #ffffff;
+	background-size: cover;
+	background-position: center;
+}
+
+/*Judul*/
+.judul {
+	position: absolute;
+}
+
+.judul h1 {
+	font-size: 60px;
+	color: white;
+	top: 50%;
+	left: 50%;
+	transform: translate(90%, 300%);
+}
+
+.judul p {
+	font-size: 20px;
+	color: white;
+	top: 50%;
+	left: 50%;
+	transform: translate(-5%, 420%);
+}
+
+/*Button*/
+.button {
+	background-color: crimson;
+	color: #ffffff;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: 400;
+	height: 2.85em;
+	line-height: 2.95em;
+	padding: 0 2em;
+	border-radius: 100px;
+	border: 2px solid crimson;
+	text-align: center;
+	text-decoration: none;
+	top: 50%;
+	left: 50%;
+	transform: translate(410%, 750%);
+}
+
+.button:hover {
+	background-color: transparent;
+	color: #ffffff;
+	transition: 0.8s ease;
+	border: 2px solid crimson;
+}
+
+.judul2 p {
+	margin-top: 42%;
+	margin-left: 47%;
+}
+
+.big a {
+	color: white;
+	text-decoration: none;
+}
+
+/*Fitur*/
+.fitur {
+	height: 100%;
+	background-color: #F5F5F5;
+	position: relative;
+}
+
+.container h2{
+	margin: 0;
+	color: ;
+	font-size: 45px;
+	padding-top: 80px;
+	text-align: center;
+}
+
+.container p{
+	margin: 0;
+	color: gray;
+	font-size: 22px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.box2 {
+	width: 300px;
+	height: 320px;
+	padding: 60px 40px 5px;
+	margin-top: 5%;
+	margin-left: 36%;
+	background: white;
+	font-family: Century Gothic;
+	text-align: center;
+	color: gray;
+}
+
+.box2 {
+	display: block;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.box2 h3 {
+	text-align: center;
+	margin-top: -10px;
+	color: crimson;
+}
+
+.box2 p {
+	text-align: center;
+	font-size: 14px;
+}
+
+.box3 {
+	position: absolute;
+	width: 300px;
+	height: 320px;
+	padding: 60px 40px 5px;
+	margin-top: -28.5%;
+	margin-left: 66%;
+	background: white;
+	font-family: Century Gothic;
+	text-align: center;
+	color: gray;
+}
+
+.box3 {
+	display: block;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.box3 h3 {
+	text-align: center;
+	margin-top: -10px;
+	color: crimson;
+}
+
+.box3 p {
+	text-align: center;
+	font-size: 14px;
+}
+
+.box4 {
+	position: absolute;
+	width: 300px;
+	height: 320px;
+	padding: 60px 40px 5px;
+	margin-top: -28.5%;
+	margin-left: 6%;
+	background: white;
+	font-family: Century Gothic;
+	text-align: center;
+	color: gray;
+}
+
+.box4 {
+	display: block;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.box4 h3 {
+	text-align: center;
+	margin-top: -10px;
+	color: crimson;
+}
+
+.box4 p {
+	text-align: center;
+	font-size: 14px;
+}
+
+.cr {
+	height: 50px;
+	background: #F5F5F5;
+}
+
+.cr h4 {
+	margin: 0;
+	padding: 17px;
+	background: #F5F5F5;
+}

@@ -1,0 +1,110 @@
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+  font-family:  "Raleway", Helvetica, sans-serif;
+}
+
+body {
+  background-image: url(dark_tint.png),url(stm5.jpg);
+  background-size: cover;
+}
+
+td {
+  color: crimson;
+}
+
+table {
+  border-spacing: 1;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 0px;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+table * {
+  position: relative;
+}
+table td, table th {
+  padding-left: 8px;
+}
+table thead tr {
+  height: 60px;
+  background: crimson;
+}
+table tbody tr {
+  height: 50px;
+}
+table tbody tr:last-child {
+  border: 0;
+}
+table td, table th {
+  text-align: left;
+}
+table td.l, table th.l {
+  text-align: center;
+}
+table td.c, table th.c {
+  text-align: center;
+}
+table td.r, table th.r {
+  text-align: center;
+}
+
+/*Navbar*/
+ul {
+  list-style-type: none;
+  float: left;
+  
+}
+
+ul li {
+  display: inline-block;
+}
+
+.link {
+  width: 1300px;
+  padding-top: 30px;
+  top: 50%;
+  left: 50%;
+  transform: translate(1%, -20%);
+}
+
+.link a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  margin-left: 6px;
+  transition: 0.6s ease;
+}
+
+.link a:hover {
+  background-color: white;
+  color: black;
+}
+
+ul li.active a {
+  background-color: white;
+  color: black;
+}
+
+/*Actions*/
+.fitur a {
+  color: navy;
+  font-weight: bold;
+}
+
+/*Judul*/
+.judul {
+  top: 50%;
+  left: 50%;
+  transform: translate(-5%, 150%);
+}
+
+.judul h2 {
+  color: white;
+  font-size: 50px;
+  text-transform: uppercase;
+}

@@ -1,0 +1,13 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: crimson;
+}
+
+h1 {
+	text-align: center;
+}
+
+.table {
+	margin-left: 25%;
+}
